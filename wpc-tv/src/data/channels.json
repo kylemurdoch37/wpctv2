@@ -1,0 +1,58 @@
+{
+  "channels": [
+    {
+      "id": 1,
+      "number": "2.1",
+      "name": "MTV",
+      "logo": "assets/logos/mtv.png",
+      "category": "Music"
+    },
+    {
+      "id": 2,
+      "number": "2.2",
+      "name": "Nickelodeon",
+      "logo": "assets/logos/nickelodeon.png",
+      "category": "Kids"
+    },
+    {
+      "id": 3,
+      "number": "2.3",
+      "name": "Cartoon Network",
+      "logo": "assets/logos/cartoon_network.png",
+      "category": "Animation"
+    },
+    {
+      "id": 4,
+      "number": "2.4",
+      "name": "Boomerang",
+      "logo": "assets/logos/boomerang.png",
+      "category": "Animation"
+    },
+    {
+      "id": 5,
+      "number": "2.5",
+      "name": "World Wrestling Federation/WWE",
+      "logo": "assets/logos/wwe.png",
+      "category": "Sports"
+    },
+    {
+      "id": 6,
+      "number": "2.6",
+      "name": "The Simpsons Loop",
+      "logo": "assets/logos/simpsons.png",
+      "category": "Comedy",
+      "loop_content": true,
+      "content_type": "series"
+    },
+    {
+      "id": 7,
+      "number": "2.7",
+      "name": "WPC Movies",
+      "logo": "assets/logos/wpc_movies.png",
+      "category": "Movies",
+      "auto_subtitles": true,
+      "auto_download_srt": true,
+      "subtitle_language": "en"
+    }
+  ]
+}
