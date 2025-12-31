@@ -37,3 +37,32 @@ class ChannelList:
     def get_channel_count(self):
         """Get the total number of channels"""
         return len(self.channels.get('channels', []))
+        
+    def has_auto_subtitles(self, channel_id):
+        """Check if a channel has auto-subtitle feature enabled
+        
+        Args:
+            channel_id: Channel ID to check
+            
+        Returns:
+            True if channel has auto_subtitles enabled, False otherwise
+        """
+        for channel in self.channels.get('channels', []):
+            if channel.get('id') == channel_id:
+                return channel.get('auto_subtitles', False)
+        return False
+        
+    def is_loop_channel(self, channel_id):
+        """Check if a channel is a loop channel
+        
+        Args:
+            channel_id: Channel ID to check
+            
+        Returns:
+            True if channel is set to loop content, False otherwise
+        """
+        for channel in self.channels.get('channels', []):
+            if channel.get('id') == channel_id:
+                return channel.get('loop_content', False)
+        return False
+
