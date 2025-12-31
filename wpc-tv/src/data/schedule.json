@@ -1,0 +1,64 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "channel_id": 1,
+      "title": "Morning News",
+      "description": "Your daily dose of local and national news",
+      "start_time": "06:00",
+      "end_time": "09:00",
+      "category": "News",
+      "rating": "TV-G"
+    },
+    {
+      "id": 2,
+      "channel_id": 1,
+      "title": "Afternoon Report",
+      "description": "Midday news and weather updates",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "category": "News",
+      "rating": "TV-G"
+    },
+    {
+      "id": 3,
+      "channel_id": 2,
+      "title": "Sports Center",
+      "description": "Highlights and analysis from the world of sports",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "category": "Sports",
+      "rating": "TV-G"
+    },
+    {
+      "id": 4,
+      "channel_id": 3,
+      "title": "Comedy Hour",
+      "description": "Stand-up comedy and sketches",
+      "start_time": "20:00",
+      "end_time": "21:00",
+      "category": "Comedy",
+      "rating": "TV-14"
+    },
+    {
+      "id": 5,
+      "channel_id": 4,
+      "title": "Movie Night",
+      "description": "Classic films from the golden age",
+      "start_time": "21:00",
+      "end_time": "23:00",
+      "category": "Movies",
+      "rating": "PG"
+    },
+    {
+      "id": 6,
+      "channel_id": 5,
+      "title": "Cartoon Adventures",
+      "description": "Fun animated shows for kids",
+      "start_time": "08:00",
+      "end_time": "10:00",
+      "category": "Animation",
+      "rating": "TV-Y"
+    }
+  ]
+}

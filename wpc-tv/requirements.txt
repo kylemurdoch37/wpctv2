@@ -1,0 +1,10 @@
+# WPC-TV Requirements
+# Core dependencies for the WPC-TV application
+
+# UI Framework (example - adjust based on actual needs)
+# textual>=0.1.0
+
+# Configuration and data handling
+# python-dotenv>=1.0.0
+
+# Add specific requirements as needed for your TV application

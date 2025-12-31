@@ -1,0 +1,39 @@
+{
+  "channels": [
+    {
+      "id": 1,
+      "number": "2.1",
+      "name": "WPC News",
+      "logo": "assets/logos/wpc_news.png",
+      "category": "News"
+    },
+    {
+      "id": 2,
+      "number": "2.2",
+      "name": "WPC Sports",
+      "logo": "assets/logos/wpc_sports.png",
+      "category": "Sports"
+    },
+    {
+      "id": 3,
+      "number": "2.3",
+      "name": "WPC Entertainment",
+      "logo": "assets/logos/wpc_entertainment.png",
+      "category": "Entertainment"
+    },
+    {
+      "id": 4,
+      "number": "2.4",
+      "name": "WPC Movies",
+      "logo": "assets/logos/wpc_movies.png",
+      "category": "Movies"
+    },
+    {
+      "id": 5,
+      "number": "2.5",
+      "name": "WPC Kids",
+      "logo": "assets/logos/wpc_kids.png",
+      "category": "Kids"
+    }
+  ]
+}
