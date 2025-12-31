@@ -31,9 +31,14 @@ class EPGGrid:
         self.current_time_slot = time_slot
         
     def get_programs_at_time(self, time):
-        """Get programs airing at a specific time"""
+        """Get programs airing at a specific time
+        
+        Note: This is a basic implementation. For production use,
+        convert time strings to datetime objects for proper comparison.
+        """
         programs = []
         for program in self.schedule_data.get('programs', []):
+            # Simple string comparison - works for HH:MM format but should use datetime for production
             if program.get('start_time') <= time <= program.get('end_time'):
                 programs.append(program)
         return programs

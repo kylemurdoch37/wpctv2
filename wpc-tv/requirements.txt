@@ -1,10 +1,8 @@
 # WPC-TV Requirements
-# Core dependencies for the WPC-TV application
+# This file lists Python package dependencies for the WPC-TV application
+# Currently, the application uses only Python standard library modules
 
-# UI Framework (example - adjust based on actual needs)
-# textual>=0.1.0
-
-# Configuration and data handling
-# python-dotenv>=1.0.0
-
-# Add specific requirements as needed for your TV application
+# Uncomment and add dependencies as needed, for example:
+# textual>=0.1.0           # For terminal UI
+# python-dotenv>=1.0.0     # For environment configuration
+# requests>=2.31.0         # For API calls

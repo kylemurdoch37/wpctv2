@@ -47,7 +47,8 @@ class WPCTheme:
         
     def get_font_size(self, size_name):
         """Get a font size by name"""
-        return self.fonts.get(f'size_{size_name}', self.fonts['size_normal'])
+        key = f'size_{size_name}' if not size_name.startswith('size_') else size_name
+        return self.fonts.get(key, self.fonts['size_normal'])
         
     def apply_theme(self):
         """Apply the theme to the application"""
